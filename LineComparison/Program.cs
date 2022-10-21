@@ -5,7 +5,6 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Line Comparison Computation Program");
-          
 
             int i;
             double length1 = 0;
@@ -44,7 +43,7 @@
 
             }
             Console.WriteLine();
-            Console.WriteLine("Two lines are equal?\n" + length1.Equals(length2));
+            Console.WriteLine(length1.CompareTo(length2));
 
         }
     }
